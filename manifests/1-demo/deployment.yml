@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image:  gurtej1959/bb-app:7.1.0     # {"$imagepolicy": "flux-system:myimagepolicy"}
+          image:  gurtej1959/bb-app:7.7.0     # {"$imagepolicy": "flux-system:myimagepolicy"}
           imagePullPolicy: Always
           resources:
             requests:
